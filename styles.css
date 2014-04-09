@@ -1,0 +1,61 @@
+.clearfix:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.newpage {
+	width:120px;
+	height:120px;
+	margin:10px;
+	border:1px solid #888;
+	float:left;
+}
+
+.full, .halfwide, .halftall, .quarter, .eighthtall, .eighthwide {
+	display: inline-block;
+	margin:2px;
+}
+
+.full {
+	width:120px;
+	height:120px;
+	background-color: red;
+	text-align:center;
+}
+
+.halftall {
+	width:60px;
+	height:120px;
+	background-color: green;
+	text-align:center;
+}
+
+.halfwide {
+	width:120px;
+	height:60px;
+	background-color: green;
+	text-align:center;
+}
+
+.quarter {
+	width:60px;
+	height:60px;
+	background-color: blue;
+	text-align:center;
+}
+
+.eighthtall {
+	width:30px;
+	height:60px;
+	background-color: yellow;
+	text-align:center;
+}
+
+.eighthwide{
+	width:60px;
+	height:30px;
+	background-color: yellow;
+	text-align:center;
+}
